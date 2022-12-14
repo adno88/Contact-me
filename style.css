@@ -1,11 +1,10 @@
 *
 {
-    background-color: brown;
     margin: 0;
     padding: 0;
     box-sizing: border-box;
 }
-#container
+.container
 {
     display: flex;
     align-items: center;
@@ -14,11 +13,13 @@
     height: 100vh;
     overflow: hidden;
     position: relative;
+    background: linear-gradient(to right top, grey, navy);
 }
 .contactsection
 {
     z-index: 1;
     display: flex;
+    width: 100%;
 }
 .leftside
 {
@@ -26,9 +27,19 @@
     flex-direction: column;
     justify-content: flex-start;
     align-items: center;
+    padding: 20px;
+}
+.leftside span
+{
+    font-family: sans-serif;
+    font-size: 32px;
+    font-weight: 700;
+    color: white;
 }
 .rightside
 {
     display: flex;
     flex-direction: column;
+    padding: 20px;
+    background-color: antiquewhite;
 }

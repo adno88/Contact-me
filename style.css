@@ -17,16 +17,16 @@
 }
 .contactsection
 {
-    z-index: 1;
     display: flex;
     width: 100%;
+    justify-content: center;
 }
 .leftside
 {
     display: flex;
     flex-direction: column;
     justify-content: flex-start;
-    align-items: center;
+    align-content: center;
     padding: 20px;
 }
 .leftside span
@@ -40,12 +40,18 @@
 {
     display: flex;
     flex-direction: column;
+    align-items: center;
+    
+    align-content: center;
     padding: 20px;
-    background-color: antiquewhite;
+    background-color: transparent;
 }
-*
+input, textarea
 {
-    background-color: teal;
-    margin: 0;
-    padding: 0;
+    padding: 5px;
+    margin: 10px;
+}
+button
+{
+    width: 9em;
 }

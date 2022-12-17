@@ -27,6 +27,7 @@
     flex-direction: column;
     justify-content: flex-start;
     align-content: center;
+    margin-right: 15px;
     padding: 20px;
 }
 .leftside span
@@ -43,14 +44,24 @@
     align-items: center;
     align-content: center;
     padding: 20px;
+    margin-left: 15px;
     background-color: transparent;
 }
 input, textarea
 {
-    padding: 5px;
+    padding: 10px;
+    width: 30vw;
     margin: 10px;
+    border: none;
+    border-radius: 5px;
 }
 button
 {
     width: 9em;
+    padding: 5px;
+    background-color: aquamarine;
+    border-radius: 5px;
+    border: none;
+    font-size: 16px;
+    font-weight: 400;
 }

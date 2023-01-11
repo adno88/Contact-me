@@ -22,6 +22,7 @@
     width: 86%;
     background: rgba(0, 0, 0, 0.75);
     justify-content: center;
+    border-radius: 15px;
     
 }
 .leftside
@@ -49,6 +50,10 @@
     align-items: center;
     margin-top: 10px;
 }
+.icons:hover
+{
+    cursor: pointer;
+}
 img
 {
     margin: 10px;
@@ -58,10 +63,17 @@ img
     display: flex;
     flex-direction: column;
     align-items: center;
-    align-content: center;
-    padding: 20px;
+    justify-content: center;
     margin-left: 15px;
     background-color: transparent;
+}
+.rightside input:focus
+{
+    outline: 0;
+}
+.rightside textarea:focus
+{
+    outline: 0;
 }
 input, textarea
 {

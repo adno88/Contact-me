@@ -132,3 +132,39 @@ button:hover:after {
     color: white;
     letter-spacing: 2px;
 }
+@media only screen and (max-width: 1200px) {
+    .leftside span {
+        font-size: 30px;
+    }
+    input, textarea {
+        padding: 7px;
+        width: 20vw;
+        margin: 7px;
+        border: none;
+        border-radius: 5px;
+    }
+}
+@media only screen and (max-width: 1000px) {
+    .contactsection {
+        flex-direction: column;
+        height: 75%;
+        width: 85%;
+    }
+    input, textarea {
+        padding: 7px;
+        width: 50vw;
+        margin: 7px;
+        border: none;
+        border-radius: 5px;
+    }
+    .rightside {
+        margin-top: 30px;
+        margin-left: 0;
+    }
+    .show {
+        bottom: -25px;
+    }
+    textarea {
+        height: 200px;
+    }
+}
